@@ -1,8 +1,7 @@
-#include <stdio.h>
-
-int main (void)
+#include<stdio.h>
+int main()
 {
-	char line[] = "Programming is like building a multilingual puzzle\n";
+	char line[] = '"Programming is like building a multilingual puzzle\n';
 	puts(line);
 	return 0;
 }
