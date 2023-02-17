@@ -2,5 +2,7 @@
 
 int main (void)
 {
-	printf("Programming is like building a multilingual puzzle\n");
+	char line[] = "Programming is like building a multilingual puzzle\n";
+	puts(line);
+	return 0;
 }
