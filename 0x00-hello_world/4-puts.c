@@ -1,16 +1,10 @@
 #include <stdio.h>
-
 /**
- * 4-puts.c - The puts function
- * Description: Output a string variable using the puts function instead of the printf function
- * Section header: 
+ * main - the use of puts function to print
  * Return: 0
- * */
+ **/
 int main(void)
 {
-	char str[] = "\"Programming is like building a multilingual puzzle";
-
-	puts(str);
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
-
 }
