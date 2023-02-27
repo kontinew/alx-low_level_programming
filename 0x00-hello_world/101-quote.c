@@ -6,9 +6,9 @@
  **/
 int main(void)
 {
-	char quote;
+	char *_quote;
 
-	quote =	"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write(1, quote, sizeof(quote));
+	*_quote = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	write(1, *_quote, sizeof(*_quote));
 	return (1);
 }
