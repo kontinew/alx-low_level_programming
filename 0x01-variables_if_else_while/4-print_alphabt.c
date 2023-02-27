@@ -9,12 +9,12 @@ int main(void)
 
 	while (ch <= 'z')
 	{
-		if (ch != 'q' || ch != 'e')
+		if(ch != 'q' || ch != 'e')
 		{
-			printf("%c", ch);
+			putchar(ch);
 		}
 		ch++;
 	}
-	printf("\n");
+	putchar("\n");
 	return (0);
 }
