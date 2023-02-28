@@ -5,15 +5,13 @@
  **/
 void _puts(char *str)
 {
-	char ch[] = str;
-
 	int len = _strlen(str);
 
 	int count;
 
 	while (count >= len)
 	{
-		_putchar(ch[count];
+		_putchar(s[count];
 		count++;
 	}
 	_putchar('\n');
