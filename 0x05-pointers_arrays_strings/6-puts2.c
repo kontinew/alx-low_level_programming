@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts2 - print every other character
- * @str - the string to print
+ * @str: the string to print
  **/
 void puts2(char *str)
 {
@@ -9,7 +9,7 @@ void puts2(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (i%2)
+		if (i % 2)
 		{
 
 		}
