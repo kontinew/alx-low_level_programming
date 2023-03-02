@@ -1,8 +1,8 @@
 /**
- * *_strcat(char *dest, char *src) c- concatenates two strings
+ * _strcat(char *dest, char *src) - concatenates two strings
  * @dest: the string to be amended
  * @src: the string to be appended to the dest
- * Return: src
+ * Return: dest
  **/
 char *_strcat(char *dest, char *src)
 {
@@ -20,6 +20,8 @@ char *_strcat(char *dest, char *src)
 		j++;
 		i++;
 	}
+
+	dest[i] = '\0';
 
 	return (dest);
 }
