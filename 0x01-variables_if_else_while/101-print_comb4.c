@@ -7,11 +7,11 @@ int main(void)
 {
 	int ch1;
 	int ch2;
-       	int ch3;
+	int ch3;
 
 	for (ch1 = 48; ch1 <= 55; ch1++)
 	{
-		for( ch2 = ch1 + 1; ch2 <= 56; ch2++)
+		for (ch2 = ch1 + 1; ch2 <= 56; ch2++)
 		{
 			for (ch3 = ch2 + 1; ch3 <= 57; ch3++)
 			{
